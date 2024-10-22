@@ -587,7 +587,6 @@ p {
 }
 
 #footer .social-item img {
-	filter: grayscale(1);
 	transition: 0.3s ease filter;
 }
 
