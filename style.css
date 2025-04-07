@@ -801,8 +801,10 @@ p {
 	margin: 0 auto;
 }
 
-#gallery .gallery-bottom {
+#gallery .gallery-bottom div {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
@@ -810,11 +812,10 @@ p {
 #gallery .gallery-bottom .card{
 	max-height: 250px;
 	max-width: 250px;
-	padding: 0.5%;
+	padding: 1%;
 }
 
 #gallery .gallery-bottom .card:hover{
-	max-height: 260px; 
+	max-height: 260px;
 	max-width: 260px;
-	
 }
