@@ -11,6 +11,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+#header .nav-bar a{
+	text-decoration: none;
+}
+
 a {
 	text-decoration: none;
 }
@@ -407,6 +411,9 @@ p {
 	font-size: 4rem;
 	font-weight: 500;
 }
+#projects .project-info h1 a span {
+	color: crimson;
+}
 
 #projects .project-info h2 {
 	font-size: 1.8rem;
@@ -788,21 +795,26 @@ p {
 	}
 }
 
-:root {
-	--shadow: orange;
-	--scrollbarBG: green;
-	--thumbBG: white;
+#gallery .gallery {
+	flex-direction: column;
+	text-align: center;
+	margin: 0 auto;
 }
 
-::-webkit-scrollbar {
-	width: 15px;
+#gallery .gallery-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
 }
 
-::-webkit-scrollbar-track {
-	background: var(--scrollbarBG);
+#gallery .gallery-bottom .card{
+	max-height: 250px;
+	max-width: 250px;
+	padding: 0.5%;
 }
 
-::-webkit-scrollbar-thumb {
-	background-color: var(--thumbBG);
-	box-shadow: 0 -100vh 0 100vh var(--shadow);
+#gallery .gallery-bottom .card:hover{
+	max-height: 260px; 
+	max-width: 260px;
+	
 }
